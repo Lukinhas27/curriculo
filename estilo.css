@@ -1,0 +1,105 @@
+body {
+    background-image: url('https://img.freepik.com/fotos-gratis/fundo_53876-32170.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main>.container {
+    width: 50%;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(2) {
+    background-color: #afa9a9;
+}
+
+header{
+    background-color: #333;
+    color: #000000;
+    text-align: center;
+    padding: 5px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+#dados-pessoais {
+    display: flex;
+    align-items: center;
+}
+
+#infor-pessoal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#infor-pessoal h2 {
+    margin-top: 0;
+    color: #333;
+    text-align: center;
+}
+
+#apresentacao p {
+    display: flex;
+    font-size: 16px;
+    line-height: 1.6;
+    align-items: center;
+}
+
+strong {
+    font-weight: bold;
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #333;
+    color: #000000;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+}
